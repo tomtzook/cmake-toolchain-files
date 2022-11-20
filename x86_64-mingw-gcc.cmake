@@ -10,8 +10,8 @@ set(CMAKE_CXX_COMPILER ${CROSS}-g++)
 set(CMAKE_AR ${CROSS}-ar CACHE FILEPATH Archiver)
 set(CMAKE_RANLIB ${CROSS}-ranlib CACHE FILEPATH Indexer)
 
-set(CMAKE_FIND_ROOT_PATH
-  /usr/${CROSS})
+set(CMAKE_FIND_ROOT_PATH /usr/${CROSS})
+set(CMAKE_PREFIX_PATH /usr/${CROSS})
 
 # modify default behavior of FIND_XXX() commands to
 # search for headers/libs in the target environment and

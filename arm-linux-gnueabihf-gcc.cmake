@@ -7,6 +7,7 @@ set(CMAKE_AR "arm-linux-gnueabihf-ar" CACHE FILEPATH Archiver)
 set(CMAKE_RANLIB "arm-linux-gnueabihf-ranlib" CACHE FILEPATH Indexer)
 
 set(CMAKE_FIND_ROOT_PATH /usr/arm-linux-gnueabihf)
+set(CMAKE_PREFIX_PATH /usr/arm-linux-gnueabihf)
 
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
